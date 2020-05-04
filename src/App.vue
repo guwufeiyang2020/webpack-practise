@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      initData: "vue开发环境运行成功",
+      initData: "vue开发环境运行成功11",
     };
   },
 };
