@@ -1,0 +1,75 @@
+{
+  "name": "webpack-practise",
+  "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "一步步配置webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config build/webpack.dev.js --open",
+    "build": "webpack --config build/webpack.prod.js"
+  },
+=======
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config build/webpack.dev.js",
+    "build": "webpack --config build/webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+>>>>>>> 8ca7a6d... feat: 初始化仓库
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+<<<<<<< HEAD
+=======
+    "happypack": "^5.0.1",
+>>>>>>> 8ca7a6d... feat: 初始化仓库
+    "html-webpack-plugin": "^4.3.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+<<<<<<< HEAD
+=======
+    "thread-loader": "^2.1.3",
+>>>>>>> 8ca7a6d... feat: 初始化仓库
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+<<<<<<< HEAD
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guwufeiyang2020/webpack-practise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guwufeiyang2020/webpack-practise/issues"
+  },
+  "homepage": "https://github.com/guwufeiyang2020/webpack-practise#readme"
+=======
+  }
+>>>>>>> 8ca7a6d... feat: 初始化仓库
+}
